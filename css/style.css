@@ -1,0 +1,226 @@
+:root{
+    /* Primary */
+    --Dark-Blue-intro: hsl(217, 28%, 15%); /*(intro and email sign up background)*/
+    --Dark-Blue-main: hsl(218, 28%, 13%); /*(main background)*/
+    --Dark-Blue-footer: hsl(216, 53%, 9%); /*(footer background)*/
+    --Dark-Blue-testimonial: hsl(219, 30%, 18%); /*(testimonials background)*/
+
+    /*Accent*/
+
+    --Cyan: hsl(176, 68%, 64%); /*(inside call-to-action gradient)*/
+    --Blue: hsl(198, 60%, 50%); /*(inside call-to-action gradient)*/
+    --Light-red: hsl(0, 100%, 63%); /*Red (error)*/
+
+    /*Neutral*/
+    --White: hsl(0, 0%, 100%);
+
+    /*Typography*/
+    /*Body Copy*/
+    --Font_size: 14px;
+
+    /* Headings, Call-to-actions, Header Navigation */
+    --h-cto-nav-Weights-small: 400;
+    --h-cto-nav-Weights-medium: 700;
+
+    /*Body*/
+    --body-Weights1: 400;
+    --body-Weights2: 700;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: var(--Dark-Blue-main);
+}
+
+/** Header **/
+header img{
+    width: 3.5em;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+header ul li{
+    float: left;
+}
+header ul li a{
+    color: var(--White);
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+/*Main*/
+/*Hero Section*/
+main{
+    padding: 0 1em 0 1em;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    margin: 3em 0 3em 0;
+}
+.hero img{
+    width: 100%;
+    max-width: 300px;
+}
+.hero-text{
+    color: var(--White);
+    text-align: center;
+}
+.hero-text h2{
+    margin-bottom: 1rem;
+}
+.button{
+    margin-top: 30px;
+}
+.button a{
+    display: block;
+    padding: .8em 3em;
+    text-align: center;
+    color: var(--White);
+    background: var(--Blue);
+    border-radius: 20px;
+}
+
+/*Feature Section*/
+.feature-box{
+    color: var(--White);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature-box img{
+    width: 100%;
+    max-width: 3em;
+    margin: 2.5em 0 2.5em 0;
+}
+.feature-box-desc h2{
+    margin-bottom: .6em;
+}
+
+/*Action-Sec*/
+.action-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--White);
+    margin: 7em 0 7em 0;
+}
+.illustration-img{
+    width: 100%;
+    max-width: 20em;
+    margin-bottom: 2em;
+}
+.action-sec h2{
+    margin-bottom: 1em;
+}
+.action-sec p{
+    margin-bottom: 1em;
+}
+hr{
+    width: 9.5em;
+    color: var(--Cyan);
+}
+.desc-text a{
+    color: var(--Cyan);
+}
+
+/*Testimoninal Section*/
+.testimonial-section{
+    color: var(--White);
+}
+.testimonial-section p{
+    font-size: 12px;
+}
+.testimonial-section img{
+    width: 100%;
+    max-width: 2em;
+}
+.card{
+    margin-bottom: 1em;
+    background: var(--Dark-Blue-intro);
+    border-radius: 5px;
+    padding: 1.5em;
+}
+.user-box{
+    display: flex;
+    margin-top: 1em;
+}
+.user-box img{
+    border-radius: 45%;
+    margin-right: .5em;
+}
+.user-info h3{
+    font-size: 14px;
+}
+.user-info p{
+    font-size: 11px;
+}
+
+/*Footer*/
+footer{
+    padding: 9em 1em 2em 1em;
+    background: var(--Dark-Blue-footer);
+}
+.footer-fylo{
+    margin: 4em 0 2em 0;
+}
+.form{
+    position: relative;
+    top: 9em;
+    padding: 2em;
+    text-align: center;
+    color: var(--White);
+    background: var(--Dark-Blue-intro);
+}
+.cta-button{
+    margin-top: 1em;
+}
+.cta-button a{
+    display: block;
+    padding: .8em 2em;
+    text-align: center;
+    color: var(--White);
+    background: var(--Blue);
+    border-radius: 20px;
+}
+.input-email{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    text-align: center;
+    padding: .8em 2em;
+    border-radius: 20px;
+}
+
+.contact-info{
+    display: flex;
+}
