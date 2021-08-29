@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/*font-family: 'Raleway', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
 :root{
     /* Primary */
     --Dark-Blue-intro: hsl(217, 28%, 15%); /*(intro and email sign up background)*/
@@ -41,6 +45,10 @@ a{
 }
 body{
     background: var(--Dark-Blue-main);
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h3{
+    font-family: 'Raleway', sans-serif;
 }
 
 /** Header **/
